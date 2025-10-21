@@ -1,0 +1,10 @@
+spring:
+  application:
+  name: demo
+
+demo:
+  apartment:
+    input:
+      file:
+        type: ${DEMO_APARTMENT_INPUT_FILE_TYPE:JSON}
+        path: ${DEMO_APARTMENT_INPUT_FILE_PATH:D:\temp\apartments.txt}
